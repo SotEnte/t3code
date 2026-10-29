@@ -4,6 +4,13 @@ T3 Code uses Claude Code's login and configuration. Start with the default provi
 for one account; [provider setup](./install.md#providers) covers installation and
 shared provider settings.
 
+## School Claude proxy on Windows
+
+The School desktop installer sets up Claude Code, Git Bash, and the proxy. Select
+Claude in a new thread to use them. The proxy credential stays in the local
+installation. If it is missing or incomplete, T3 Code uses its normal provider
+settings.
+
 ## Separate accounts or configurations
 
 Use a separate Claude config directory for each account. This also works for named
