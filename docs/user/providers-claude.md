@@ -11,6 +11,11 @@ Claude in a new thread to use them. The proxy credential stays in the local
 installation. If it is missing or incomplete, T3 Code uses its normal provider
 settings.
 
+To build a personalized Windows installer, set `SCHOOL_CLAUDE_INSTALLER_PATH` to
+the absolute path of the private School Claude setup executable, then run
+`vp run dist:desktop:win:x64`. The setup executable contains the proxy credential.
+Keep the resulting installer private and never commit it to the public repository.
+
 ## Separate accounts or configurations
 
 Use a separate Claude config directory for each account. This also works for named
